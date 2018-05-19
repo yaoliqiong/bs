@@ -1,0 +1,56 @@
+.health_Server{
+	.health_server{
+		padding:0.15rem 0.2rem;
+		width:3.75rem;
+		display:flex;
+		flex-direction: column;
+		.hs_content{
+			display: flex;
+			margin-top:0.15rem;
+			justify-content: space-between;
+			.hs_content_l{
+				width:1.12rem;
+				height:0.84rem;
+				img{
+					width:1.12rem;
+					height:100%;
+				}
+			}
+			.hs_content_r{
+				width:2.02rem;
+				position: relative;
+				.hsc_title{
+					max-height: 0.4rem;
+			   		line-height: 0.2rem;
+				    display: -webkit-box;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    -webkit-line-clamp: 2;
+				    -webkit-box-orient: vertical;
+				    font-size: 0.16rem;
+				}
+				.hsc_title1{
+					line-height: 0.2rem;
+				    white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    font-size: 0.12rem;
+				    color: #9B9B9B;
+				}
+				.hsc_price{
+					font-size: 0.12rem;
+					color:#ff9f4f;
+					position:absolute;
+					bottom:0;
+					.hsc_pricing{
+						font-size: 0.16rem;
+					}
+					.hsc_priced{
+						text-decoration: line-through;
+						color:#9B9B9B;
+					}
+				}
+			}
+		}
+	}
+}

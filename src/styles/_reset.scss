@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, c{ border:none; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul, ol { list-style:none; }
+
+body { color:#333;  background:#fafafa; overflow-x:hidden;font-family: Microsoft YaHei,'宋体',Tahoma,Arial,sans-serif;}
+
+a { color:#666; text-decoration:none; }
+
+.clearfix:after{content:'';display:block;height:0;clear:both;overflow: hidden;visibility: hidden;}
+
+@media screen and (max-width:320px ) { html,body{font-size: 12px;} }
+@media screen and (min-width:321px) and (max-width:375px ) { html,body{font-size: 14px;} }
+@media screen and (min-width:376px ) { html,body{font-size: 16px;}}
+
+
+

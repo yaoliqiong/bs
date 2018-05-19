@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+.mine{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;
+    align-items: center;
+
+    /*上面的内容部分*/ 
+    .mine-content{
+        width:100%;
+        flex-grow:1;
+        flex-shrink:1;
+        overflow: scroll;
+    }
+
+    /*底部内容部分*/ 
+    .minefooter{
+        flex-grow:0;
+        flex-shrink: 0;
+        width:100%;
+    }
+    
+    /*头部部分*/ 
+    .minehead{
+        padding-top:0.2rem;
+        background:#fff;
+        
+        
+         /*头部的上面部分*/
+        .minehead-top{
+            padding-left:0.2rem;
+            display: flex;
+            justify-content: space-between;
+            padding-bottom:10px;
+
+            /*头部上面的左边部分*/ 
+            .minehead-top__left{
+                display: flex;
+
+                img{
+                    width:0.7rem;
+                    height:0.7rem;
+                    border:1px solid #10d4c7;
+                    border-radius: 50%;
+                    margin-right:0.2rem;
+                }
+
+                .topleft-text{
+                    display: flex;
+                    flex-flow: column;
+                    .text-info{
+                        font-size:16px;
+                        color:#767676;
+                        padding:9px 0;
+
+                    }
+                    span{
+                        font-size:14px;
+                        color:#9b9b9b;
+                    }
+                    .text-vip{
+                        margin-top:9px;
+                        width:0.86rem;
+                        height:0.29rem;
+                        background:#fce233;
+                        border-radius: 15px;
+                        padding-left:10px;
+                        line-height: 0.29rem;
+                    }
+                }
+            }
+             /*头部上面的右边部分*/
+            .minehead-top__right{
+                width:0.8rem;
+                height:0.3rem;
+                background: #00d2c3;
+                color:#fff;
+                line-height:0.3rem;
+                text-align: center;
+                border-radius:15px 0 0 15px;
+                margin-top:9px;
+                
+            }
+        }
+        
+        /*头部的下面部分*/
+        .minehead-bottom{
+            padding:0 10px;
+            margin-bottom:10px;
+            display: flex;
+            flex-grow:1;
+            flex-shrink: 1;
+
+            a{
+                
+                padding:.2rem 0.2rem;
+                display: flex;
+                flex-flow:column;
+                justify-content: space-between;
+                align-items: center;
+                line-height: 0.2rem;
+
+                span{
+                    color:#00dadd;
+                    font-size:16px;
+                }
+                p{
+                    color:#9b9b9b;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+     /*我的导航栏部分*/ 
+    .minenav{
+        background: #fff;
+        margin-bottom:10px;
+
+        .minenav-top{
+            padding:0 4.8%;
+            p{
+                line-height:0.3rem;
+                padding:5px 0;
+                border-bottom: 1px solid #f1f1f1;
+                color:#767676; 
+            }
+        }
+
+        .minenav-bottom{
+            padding:16px 0 10px 0;
+            display: flex;
+            flex-grow: 1;
+            flex-shrink: 1;
+            width:100%;
+            a{
+                width:25%;
+                display: flex;
+                flex-flow:column;
+                justify-content: space-between;
+                align-items: center;
+
+                img{
+                    width:0.36rem;
+                    height:0.36rem;
+                }
+                p{
+                    font-size:16px;
+                    color:#333333;
+                }
+            }
+
+
+        }
+    }
+
+    .minecontent{
+        border-top:1px solid #f5f5f5;
+        border-bottom:1px solid #f5f5f5;
+        background: #fff;
+        margin-bottom:10px;
+        
+        .minecontent-list{
+            line-height:0.3rem;
+            padding:8px 4.8% 8px 4.8%;
+           display: flex;
+           flex-grow:1;
+           position:relative; 
+            img{
+                width:0.2rem;
+                height:0.2rem;
+                margin:4px 10px 0 0 ;    
+            }
+            
+            i{
+               position:absolute;
+               right:5%;
+
+            }
+        }::after{
+            content:'';
+            position:absolute;
+            right:0;
+            bottom:0;
+            width:95%;
+            height:1px;
+            background:#f5f5f5;
+        }
+
+    }
+
+    .minecontent-bottom{
+        margin-bottom:0;
+        i{
+            font-style: normal;
+            color:#009EE6;
+            font-size:14px;
+        }
+    }
+}

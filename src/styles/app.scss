@@ -1,0 +1,22 @@
+// 只负责引用
+
+@import './base/_base.scss';
+@import './mixins/_mixin.scss';
+@import './_reset.scss';
+@import './_common.scss';
+@import './modules/gohospital.scss';
+@import './modules/login.scss';
+@import './modules/mine.scss';
+@import './modules/register.scss';
+
+
+@import './modules/mymessage.scss';
+@import './modules/doctor.scss';
+
+
+@import './modules/health/health.scss';
+@import './modules/health/health_search.scss';
+@import './modules/health/health_swiper.scss';
+@import './modules/health/health_examination.scss';
+@import './modules/health/health_server.scss';
+@import './modules/health/health_free.scss';

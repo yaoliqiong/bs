@@ -1,0 +1,59 @@
+.health-shop_classify{
+	height:1.92rem;
+	width:100%;
+}
+.swiper_content{
+	padding:0;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	li{
+		padding-top: 0.1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		width:0.64rem;
+		height:0.63rem;
+		i{
+			color:#fff;
+			width:0.42rem;
+			height:0.42rem;
+			text-align: center;
+			line-height: 0.42rem;
+			font-size:0.26rem;
+			border-radius: 50%;
+		}
+		.icon-tijianyuyue{
+			background:#00D3C2;
+		}
+		.icon-shangcheng{
+			background: #ffb753;
+		}
+		.icon-baoxian{
+			background: #33b2ef;
+		}
+		.icon-kangyouyu{
+			background: #62cd02;
+		}
+		.icon-peihu{
+			background:#ffb753 ;
+		}
+		.icon-muying{
+			background: #ff8b8b;
+		}
+		.icon-yimei1{
+			background: #957ef4;
+			font-size:0.4rem;
+		}
+		.icon-kouqiangke,.icon-dingdanfahuoyaodian,.icon-guojiyiliaox,.icon-tijianyuyue{
+			background: #00D3C2;
+		}
+		.icon-guojiyiliaox{
+			font-size:0.4rem;
+		}
+		.swiper_tag{
+			font-size:0.12rem;
+		}
+	}
+}

@@ -1,0 +1,143 @@
+[
+    {
+        "tab": "热搜科室",
+        "children": [
+            {"content":"皮肤科"},
+            {"content":"男科"},
+            {"content":"妇科"},
+            {"content":"眼科"},
+            {"content":"精神心理科"},
+            {"content":"泌尿外科"},
+            {"content":"产科"},
+            {"content":"口腔科"},
+            {"content":"失眠抑郁科"},
+            {"content":"整形美容科"},
+            {"content":"辅助生殖科"},
+            {"content":"胃肠科"},
+            {"content":"肛肠外科"},
+            {"content":"康复科"},
+            {"content":"腋臭外科"}
+        ]
+    },
+    {
+        "tab": "妇产科",
+        "children": [
+            {"content":"妇科"},
+            {"content":"产科"},
+            {"content":"辅助生殖科"},
+            {"content":"遗传咨询科"},
+            {"content":"计划生育科"},
+            {"content":"综合妇产科"}
+        ]
+    },
+    {
+        "tab": "内科",
+        "children": [
+            {"content":"皮肤科"},
+            {"content":"精神心理科"},
+            {"content":"失眠抑郁科"},
+            {"content":"胃肠科"},
+            {"content":"康复科"},
+            {"content":"消化内科"},
+            {"content":"呼吸内科"},
+            {"content":"心血管内科"},
+            {"content":"神经内科"},
+            {"content":"内分泌科"},
+            {"content":"肾内科"},
+            {"content":"风湿免疫科"},
+            {"content":"血液内科"},
+            {"content":"传染病科"},
+            {"content":"老年病科"},
+            {"content":"过敏科"},
+            {"content":"营养科"},
+            {"content":"心理科"},
+            {"content":"综合内科"},
+            {"content":"职业病科"}
+        ]
+    },
+    {
+        "tab": "儿科",
+        "children": [
+            {"content":"小儿内科"},
+            {"content":"综合儿科"},
+            {"content":"儿童保健科"},
+            {"content":"新生儿科"},
+            {"content":"小儿外科"}
+        ]
+    },
+    {
+        "tab": "五官科",
+        "children": [
+            {"content":"眼科"},
+            {"content":"口腔科"},
+            {"content":"耳鼻喉科"},
+            {"content":"综合五官科"}
+        ]
+    },
+    {
+        "tab": "外科",
+        "children": [
+            {"content":"男科"},
+            {"content":"泌尿外科"},
+            {"content":"整形美容科"},
+            {"content":"肛肠外科"},
+            {"content":"腋臭外科"},
+            {"content":"骨科"},
+            {"content":"手足外科"},
+            {"content":"普通外科"},
+            {"content":"神经外科"},
+            {"content":"心胸外科"},
+            {"content":"烧伤科"},
+            {"content":"血管外科"},
+            {"content":"移植外科"},
+            {"content":"综合外科"},
+            {"content":"运动医学科"}
+        ]
+    },
+    {
+        "tab": "中医科",
+        "children": [
+            {"content":"中医综合科"},
+            {"content":"中医内科"},
+            {"content":"中医儿科"},
+            {"content":"中医妇产科"},
+            {"content":"针灸科"},
+            {"content":"中西医结合科"},
+            {"content":"中医五官科"},
+            {"content":"中医肿瘤科"},
+            {"content":"中医老年病科"},
+            {"content":"推拿科"},
+            {"content":"中医外科"},
+            {"content":"中医肛肠科"},
+            {"content":"中医骨伤科"}
+        ]
+    },
+    {
+        "tab": "肿瘤科",
+        "children": [
+            {"content":"肿瘤综合科"},
+            {"content":"肿瘤内科"},
+            {"content":"肿瘤外科"},
+            {"content":"放疗科"}
+        ]
+    },
+    {
+        "tab": "其他",
+        "children": [
+            {"content":"特诊科"},
+            {"content":"体检科"},
+            {"content":"急诊科"},
+            {"content":"重症医学科"},
+            {"content":"病理科"},
+            {"content":"麻醉科"},
+            {"content":"超声科"},
+            {"content":"核医学科"},
+            {"content":"影像科"},
+            {"content":"疼痛科科"},
+            {"content":"介入治疗科"},
+            {"content":"检验科"},
+            {"content":"全科医疗科"},
+            {"content":"其他科室科"}
+        ]
+    }
+]

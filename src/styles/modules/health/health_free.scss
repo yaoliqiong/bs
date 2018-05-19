@@ -1,0 +1,56 @@
+.health_Free{
+	.health_free{
+		padding:0.15rem 0.2rem;
+		width:3.35rem;
+		display:flex;
+		flex-direction: column;
+		.hf_content{
+			display: flex;
+			margin-top:0.25rem;
+			justify-content: space-between;
+			.hf_content_l{
+				width:1.12rem;
+				height:0.84rem;
+				img{
+					width:1.12rem;
+					height:100%;
+				}
+			}
+			.hf_content_r{
+				width:1.47rem;
+				position: relative;
+				.hfc_title{
+					max-height: 0.4rem;
+			   		line-height: 0.2rem;
+				    display: -webkit-box;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    -webkit-line-clamp: 2;
+				    -webkit-box-orient: vertical;
+				    font-size: 0.16rem;
+				}
+				.hfc_title1{
+					line-height: 0.2rem;
+				    white-space: nowrap;
+				    overflow: hidden;
+				    text-overflow: ellipsis;
+				    font-size: 0.12rem;
+				    color: #9B9B9B;
+				}
+				.hfc_price{
+					font-size: 0.12rem;
+					color:#ff9f4f;
+					position:absolute;
+					bottom:0;
+					.hfc_pricing{
+						font-size: 0.16rem;
+					}
+					.hfc_priced{
+						text-decoration: line-through;
+						color:#9B9B9B;
+					}
+				}
+			}
+		}
+	}
+}

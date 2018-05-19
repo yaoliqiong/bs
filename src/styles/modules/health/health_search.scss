@@ -1,0 +1,32 @@
+.health_search{
+	background:#00D3C2;
+	display:block;
+	padding: 0.1rem 0;
+	.hs_Box{
+		margin-left: 0.42rem;
+		.hs_box{
+			width:2.9rem;
+			height:0.32rem;
+			background:#fff;
+			border-radius: 0.16rem;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			color:#d5d5d5;
+			.hs_logo{
+				line-height: 0.32rem;
+				width:0.16rem;
+				height:0.32rem;
+				font-size: 0.2rem;
+				padding-left:0.15rem;
+				font-weight: bold;
+			}
+			.hs_inp{
+				line-height: 0.22rem;
+				padding-left: 0.15rem;
+				width:2.69rem;
+				height:0.22rem;
+			}
+		}
+	}
+}

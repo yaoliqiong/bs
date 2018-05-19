@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+
+.mymessage{
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;
+    align-items: center;
+
+    /*上面的内容部分*/ 
+    .mymessage-content{
+        width:100%;
+        flex-grow:1;
+        flex-shrink:1;
+        overflow: scroll;
+    }
+
+    /*底部内容部分*/ 
+    .mymessagefooter{
+        flex-grow:0;
+        flex-shrink: 0;
+        width:100%;
+    }
+    .message{
+        background:#00D3C2;
+        font-size:14px;
+
+        .iconR{
+            color:#fff;
+        }
+    }
+
+    .newsContent{
+        padding:0.1rem;
+
+        img{
+            width:0.5rem;
+            height:0.5rem;
+        }
+        .text{
+            display: flex;
+            flex-flow: column;
+            p{
+                display: flex;
+                justify-content: space-between;
+                span{
+                    font-size:16px;
+                    color:#363636;
+                }
+                i{
+                    font-size:12px;
+                    color:#767676;
+                    font-style:normal;
+                }
+            }
+            .smallText{
+                font-size:14px;
+                color:#9b9b9b;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                width:100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,125 @@
+html,body,#app{height:100%;}
+
+.fullHeight{height:100%;}
+
+/*底部*/
+.gohospitalFooter{
+    height:0.47rem;
+    background: #fff;
+    border:1px solid #e0e0e0;
+    width:100%;
+    display: flex;
+    flex-grow:1;
+
+    a{
+        display:flex;
+        flex-shrink: 1;
+        flex-grow: 1;
+        flex-flow: column;
+        align-items: center;
+        font-size: 12px;
+        justify-content: space-around;
+        
+        i{
+            font-size:20px;
+        }
+        
+     }
+}
+.active{
+    color:#00d3c2;
+}
+
+
+/*导航标题部分*/ 
+.indexnav-top{
+    background:#fff;
+    line-height: 0.18rem;
+    // border-bottom: 1px solid #f1f1f1;
+    padding:10px 4.8%;
+    display: flex;
+    justify-content: space-between;
+
+    .top-left{
+        display: flex;
+        width:50%;
+        span{
+            width:3px;
+            height:16px;
+            background: #00d3c2;
+            margin-top:0.02rem;
+        }
+
+        p{
+            font-size:14px;
+            color:#363636;
+            margin-left:5px;
+        }
+    }
+    .top-right{
+        display: flex;
+
+        p{
+            font-size:14px;
+            color:#9b9b9b;
+        }
+        i{
+            color:#969696;
+        }
+    }
+
+ }
+
+
+/*顶部共用轮播图*/
+.commonBanner{
+    padding:0.1rem 0;
+    width:100%;
+    .list-item{
+        padding:0 0.15rem;
+        width:100%;
+        display: flex;
+        justify-content: space-between;
+
+        .list-item__left{
+            display: flex;
+            align-items: center;
+
+            img{
+                width:0.46rem;
+                height:0.46rem;
+            }
+            p{
+                display: flex;
+                flex-flow:column;
+                margin-left:10px;
+                span{
+                    font-size:16px;
+                    color:#363636;
+                    line-height:26px;
+                }
+                i{
+                    font-style:normal;
+                    font-size:12px;
+                    color:#767676;
+                }
+            }
+        }
+
+        .list-item__right{
+            margin-top:10px;
+            a{
+                display: block;
+                width:1rem;
+                height:0.3rem;
+                border-radius:0.3rem;
+                line-height: 0.3rem;
+                text-align: center;
+                font-size:14px;
+                color:#fff;
+                background:#00d3c2;
+            }
+        }
+    }
+
+}

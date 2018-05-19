@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+}
+.doctor{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .doctor-content{
+        width:100%;
+        flex-grow:1;
+        flex-shrink: 1;
+        overflow: scroll;
+        margin-top:30px;
+    }
+    .doctor-content1{
+        width:70%;
+        flex-grow:1;
+        flex-shrink: 1;
+        overflow: scroll;
+        margin-top:30px;
+    }
+    .doctorfooter{
+        flex-grow: 0;
+        flex-shrink: 0;
+        width:100%;
+    }
+
+    .doctorTop{
+        background:#00D3C2;
+        font-size:14px;
+        width:100%;
+
+        .iconR{
+            color:#fff;
+        }
+    }
+
+}
+
+.ant-btn-primary{color: #fff;background-color: #00D3C2;border-color: #00D3C2;margin-left:35%;}
+
+.card-container > .ant-tabs-card > .ant-tabs-content {
+    // height: 120px;
+    margin-top: -16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #fff;
+    padding: 0 16px 0 16px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar {
+    background: #F1F1F1;
+    width:150px;
+    height:632px;
+  }
+  
+  .card-container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+    text-align: center;
+    margin-left:-68px;
+  }
+  
+  .card-container > .ant-tabs-card >.ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+    color:#00D3C2;
+   
+  }
+  .ant-tabs-vertical.ant-tabs-left > .ant-tabs-content{
+      padding-left:0px;
+      background:#fff;
+  }
+
+.contentStyle{
+    height:42px;
+    line-height:42px;
+    color:#363636;
+    font-size:14px;
+}
+
+.ant-form-item-label{width:20%;margin-top:6px;}
+.ant-form-item-control-wrapper{width:80%;}
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
+
+  .ant-calendar-picker-container{left:90px}
+  .ant-calendar{top: 34px;width:220px;}
+  .ant-calendar-input-wrap{display: none}

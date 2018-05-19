@@ -1,0 +1,392 @@
+/*头部*/
+*{
+    box-sizing: border-box;
+}
+.gohospital{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+
+    .gohospital-content{
+        width:100%;
+        flex-grow:1;
+        flex-shrink: 1;
+        overflow: scroll;
+    }
+    .hospitalfooter{
+        flex-grow: 0;
+        flex-shrink: 0;
+        width:100%;
+    }
+
+    /*头部*/
+    .gohospitalHeader{
+        height:1.8rem;
+        position: relative;
+
+        .headertop{
+            position: absolute;
+            top:0;
+            left:0;
+            height:0.42rem;
+            display: flex;
+            justify-content: space-between;
+            z-index:100;
+            .headerarea{
+                width:0.92rem;
+                padding:0.18rem 0.2rem 0rem;
+                display:flex;
+                justify-content: space-between;
+
+                span{
+                    color:#fbfcfe;
+                    font-size:0.14rem;
+                    line-height:0.17rem;
+                }
+
+                i{
+                    color:#fff;
+                    width:0.12rem;
+                }
+            }
+
+            .headersearch{
+                margin:0.1rem 0.18rem 0rem 0rem;
+                height:0.32rem;
+                width:2.64rem;
+                border-radius: 0.22rem;
+                display: flex;
+                background:#fff;
+
+                i{
+                    width:0.27rem;
+                    height:0.17rem;
+                    display:block;
+                    padding:0.08rem 0.04rem 0.07rem 0.08rem;
+                    color:#a9a9a9;
+                }
+
+                input{
+                    width:2.34rem;
+                    display: block;
+                    height:0.3rem;
+                 border-radius:0.12rem;
+                    outline: none;
+                    border:0;
+                }
+                ::-webkit-input-placeholder{
+                    color:#9b9b9b;
+                }
+                :-moz-input-placeholder{
+                    color:#9b9b9b;
+                }
+                :-ms-input-placeholder{
+                    color:#9b9b9b;
+                }
+            }
+        }
+
+        img{width:3.75rem;height:1.875rem;}
+    }
+
+    /*按钮导航*/
+    .homemenus{
+        width:100%;
+        background-color:#fff;
+        padding:0.15rem 0 0.15rem 0;
+       
+        .menu1{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .menu2{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top:0.08rem;
+        }
+        a{
+            display:flex;
+            width:25%;
+            text-align: center;
+            align-items: center;
+            height:0.67rem;
+            flex-flow:column;
+            justify-content: space-between;
+
+        em{
+            width:0.46rem;
+            height:0.46rem;
+            display: block;
+            padding:0.11rem 0 0 0 ;
+            border-radius: 50%;
+            text-align: center;
+            font-size:0.24rem;
+
+        }
+        .homemenu1{background:#00d3c2;color:#fff;}
+        .homemenu2{background:#ffb937;color:#fff;}
+        .homemenu3{background:#62cd03;color:#fff;}
+        .homemenu4{background:#1ca3fd;color:#fff;}
+        .homemenu5{background:#62cd03;color:#fff;}
+        .homemenu6{background:#f872a2;color:#fff;}
+        .homemenu7{background:#ff8b8b;color:#fff;}
+        .homemenu8{background:#957ef3;color:#fff;}
+        a:nth-child(5){padding-top:0.23rem;}
+        span{
+            display: block;
+            color:#333;
+            font-size:12px;
+           
+        }
+      }
+    }
+
+     /*医生宣传背景*/
+    .doctorbg{
+        margin-top:10px;
+        background: #fff;
+        display: flex;
+        width:100%;
+        
+        .doctorbg-left{
+            width:50%;
+            background: url('https://static.91160.com/wechat/img/main/icon_gh.png') no-repeat bottom right;
+            height:1.32rem;
+            background-size:contain; 
+
+            .doctorbg-text__left{
+                padding:0.14rem 0 0 0.1rem;
+
+                p{
+                    color:#ffb753;
+                    font-size:14px ;
+                }
+                span{
+                    color:#9b9b9b;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .doctorbg-right{
+            width:49%;
+            border-left:1px solid #f9f9f9;
+             
+            .doctorbg-right__top{
+                 border-bottom: 1px solid #f9f9f9;
+                 display: flex;
+                justify-content: space-around;
+
+                 .doctorbg-text__right1{
+                     padding-top:0.16rem;
+                     p{
+                         color:#4a4a4a;
+                         font-size: 14px;
+                     }
+                     span{
+                         color:#9b9b9b;
+                         font-size: 12px;
+                     }
+                 }
+                 img{
+                     width:0.5rem;
+                     height:0.66rem;
+                     padding:0.08rem 0;
+                 }
+             }
+         }
+    }
+
+    /*banner图*/
+    .bannerImg{
+        margin-top:10px;
+        height:0.94rem;
+        width:3.75rem;
+        img{
+            width:100%;
+            height:100%;
+        }
+    } 
+
+     /*头条*/
+    .titlehead{
+        margin-top:10px;
+        padding:8px 0;
+        background: #fff;
+
+        
+        .title-content{
+          padding:0 4.8%; 
+          display: flex;
+          justify-content: space-around;
+          
+          .titleimg{
+                width:0.89rem;
+                height:0.43rem;
+                img{
+                  padding:8px 10px 8px 0px;
+                    width:0.79rem;
+                    height:0.4rem;
+                    border-right:1px solid #f0f0f0;
+                }
+          }
+          .titletext{
+              height:0.5rem;
+              line-height: 0.25rem;
+
+              
+              .titleitem{
+                  display: flex;
+                  justify-content: space-between;
+                  width:2.2rem;
+                 
+
+                  .circle{
+                        width:5px;
+                        height:5px;
+                        background: #b2f2ed;
+                        margin-top:10px;
+
+                  }
+                  .titletext-p{
+                    font-size:14px;
+                    color:#767676;
+                    width:2.05rem;
+                    white-space: nowrap;
+                    text-overflow:ellipsis; 
+                }
+              }
+
+              
+          }
+        }
+    }
+
+     /*导航*/
+     .indexnav{
+         background:#fff;
+         margin-top:10px;
+         margin-bottom:10px;
+
+         .indexnav-bottom{
+            max-height: 2.24rem;
+            font-size: 0.373rem;
+            padding:10px 4.8% 0;
+
+            a{
+               background: rgba(0,211,194,0.04);
+                border:1px solid rgba(0,211,193,0.1);
+                margin:0.06rem 0.1rem 0.16rem 0;
+                padding-left:0.1rem;
+                padding-right:0.1rem;
+                line-height: 0.27rem;
+                border-radius: 5em;
+                font-size: 14px;
+                color:#00c1ae;
+                display:block;
+                float:left;
+            }
+         }
+
+     }
+
+     /*咨询标题*/
+     .news{
+         background:#fff;
+        .news-serach__hot{
+            width:100%;
+            height:0.42rem;
+
+            .newtitle{
+                width:100%;
+                height:0.42rem;
+
+                .list-item{
+                    float:left;
+                    display: inline-block;
+                    width:auto;
+                    padding:0 0.14rem;
+                    margin:0;
+                    line-height:0.37rem;
+                    font-size: 14px;
+                    color:#363636;
+                }
+                .visited-active{
+                    color:#00D3C2;
+                    border-bottom:1px solid #00D3C2;
+                }
+            }    
+        }
+
+        .newscontent{
+            padding:0.17rem 0.17rem 0;
+
+            .newsList{
+                padding-bottom:0.3rem;
+                display: flex;
+                justify-content: space-between;
+
+
+                .newsImg{
+                    width:0.8rem;
+                    height:0.6rem;
+                    margin-right:0.1rem;
+
+                    img{
+                        width:0.8rem;
+                        height:0.6rem;
+                    }
+                }
+
+                .newsText{
+                    p{
+                        line-height: 0.2rem;
+                        font-size:16px;
+                        color:#4a4a4a;
+                        padding-right:5px;
+                    }
+                    .smallText{
+                        display: flex;
+                        justify-content: space-between;
+                        padding-right:3px;
+                        margin-top:4px;
+
+                        .smallText-left{
+                            display: flex;
+                            i{
+                                color:#b7b7b7;
+                            }
+                            .doctorSpeak{
+                                font-size:14px;
+                                color:#b7b7b7;
+                                padding:0 7px;
+                            }
+                            .circle{
+                                width:6px;
+                                height:6px;
+                                background:#b7b7b7;
+                                margin-top:7px;
+                                margin-right:7px;
+                                border-radius: 50%;
+                            }
+                            .date{
+                                font-size:14px;
+                                color:#b7b7b7;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        
+     }
+    
+     
+}
+.ant-tabs-nav .ant-tabs-tab{
+    margin:0; 
+}
